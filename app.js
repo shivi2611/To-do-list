@@ -73,6 +73,6 @@ app.post("/delete", function(req, res){
     console.log(error);
   });
 })
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
     console.log("server has started");
 })
